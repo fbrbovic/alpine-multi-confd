@@ -2,9 +2,9 @@ FROM alpine
 MAINTAINER Faruk Brbovic <darkgaro@me.com>
 
 ENV CONFD_VERSION="0.13.0-alpha1" \
-    CONFD_URL="https://github.com/fbrbovic/confd/releases/download" \
+    CONFD_URL="https://github.com/fbrbovic/confd/releases/download" 
 
-VOLUME /etc/confd/
+VOLUME ["/etc/confd/"]
 
 RUN mkdir -p /etc/confd/conf.d/  && mkdir -p /etc/confd/templates/
 
