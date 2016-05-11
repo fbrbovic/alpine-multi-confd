@@ -1,4 +1,4 @@
-FROM gliderlabs/alpine:3.3
+FROM gliderlabs/alpine:edge
 MAINTAINER Faruk Brbovic <darkgaro@me.com>
 
 ENV CONFD_VERSION="0.13.0-alpha1" \
